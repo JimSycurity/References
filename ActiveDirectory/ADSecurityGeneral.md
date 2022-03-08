@@ -7,6 +7,8 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Monitoring Active Directory for Signs of Compromise: https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise
 - Implementing Least-Privilege Administrative Models: https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models
 - Stopping Active Directory Attacks & Other Post-Exploition Behavior with AMSI & Machine Learning: https://www.microsoft.com/security/blog/2020/08/27/stopping-active-directory-attacks-and-other-post-exploitation-behavior-with-amsi-and-machine-learning/
+- Backing Up and Restoring an Active Directory Server: https://docs.microsoft.com/en-us/windows/win32/ad/backing-up-and-restoring-an-active-directory-server
+- Active Directory Domain Services Docs: https://docs.microsoft.com/en-us/windows/win32/ad/active-directory-domain-services
 
 
 ## ADSecurity.org 
@@ -26,7 +28,6 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Manual AD Querying with dsquery and LDAPsearch: https://posts.specterops.io/an-introduction-to-manual-active-directory-querying-with-dsquery-and-ldapsearch-84943c13d7eb
 - The Attack Path Management Manifesto: https://posts.specterops.io/the-attack-path-management-manifesto-3a3b117f5e5
 - Death from Above: Lateral Movement from Azure to On-Prem AD: https://posts.specterops.io/death-from-above-lateral-movement-from-azure-to-on-prem-ad-d18cb3959d4d
-- 
 
 # Specific AD Attacks & Techniques
 
@@ -34,6 +35,10 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - NTLM Hacker Recipes: https://www.thehacker.recipes/ad/movement/ntlm
 - Mitigating NTLM Relay Attacks on ADCS: https://support.microsoft.com/en-us/topic/kb5005413-mitigating-ntlm-relay-attacks-on-active-directory-certificate-services-ad-cs-3612b773-4043-4aa9-b23d-b87910cd3429
 - Exploiting CVE-2019-1040 - Combining relay vulnerabilities for RCE and Domain Admin: https://dirkjanm.io/exploiting-CVE-2019-1040-relay-vulnerabilities-for-rce-and-domain-admin/
+
+## Pass-the-Hash
+
+- Performing Pass-the-Hash Attacks with Mimikatz: https://blog.netwrix.com/2021/11/30/passing-the-hash-with-mimikatz/
 
 ## Golden Tickets
 
@@ -54,6 +59,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 
 ## AD DS Database Theft (NTDS.dit)
 
+- Extracting Password Hashes from NTDS.dit: https://blog.netwrix.com/2021/11/30/extracting-password-hashes-from-the-ntds-dit-file/
 - NTDS.dit: https://adsecurity.org/?p=451
 - 
 ## DCShadow
@@ -80,7 +86,6 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - NetSPI: Kerberos Theory: https://blog.netspi.com/cve-2020-17049-kerberos-bronze-bit-theory
 - Trimarc Kerberos Bronze Bit Attack: https://www.hub.trimarcsecurity.com/post/leveraging-the-kerberos-bronze-bit-attack-cve-2020-17049-scenarios-to-compromise-active-directory
 
-
 ## HiveNightmare/SeriousSAM
 - BHIS Admin's Nightmare: https://www.blackhillsinfosec.com/admins-nightmare-combining-hivenightmare-serioussam-and-ad-cs-attack-paths-for-profit/
 
@@ -94,12 +99,14 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 
 - Relaying Kerberos over DNS using krbrelayx and mitm6: https://dirkjanm.io/relaying-kerberos-over-dns-with-krbrelayx-and-mitm6/
 
-
 ## Credential Protection
 ### LSASS RunAsPPL
 - Do you really know about LSA Protection?: https://itm4n.github.io/lsass-runasppl
 - Bypassing LSA Protection in Userland: https://blog.scrt.ch/2021/04/22/bypassing-lsa-protection-in-userland/
-- 
+
+### CredentialGuard
+
+### ASR Rules
 
 ## Misconfigurations & Attack Paths
 Many of the most pervasive issues around the security of Active Directory are misconfigurations in the environment.  These misconfigurations come about in many ways, but some examples are technical debt from long running AD domains (or worse, an AD domain that was originally created as part of a Microsoft Small Business Server 2000/2003), lack of knowledge, poor official documentation, and many SysAdmins and 3rd party vendors just trying to make a thing work.
@@ -107,7 +114,6 @@ Many of the most pervasive issues around the security of Active Directory are mi
 Misconfigurations can be anything from poor AD group hygeine such as too many users or nested groups in Domain Admins or other priviledged groups to improperly configured delegation and DACLs and more.
 
 Even though Active Directory has been around for about 20 years, there's still ongoing research on AD misconfigurations, attack paths, and vulnerabilities (some of which won't or can't be fixed).
-
 
 ### DACL Misconfigurations
 - DACL Trouble: GenericAll on OUs: https://www.adamcouch.co.uk/dacl-trouble-genericall-on-ous/
@@ -132,7 +138,6 @@ https://github.com/lkarlslund/adalanche
 
 - Securing Active Directory: Performing AD Security Review: https://www.hub.trimarcsecurity.com/post/securing-active-directory-performing-an-active-directory-security-review
 
-
 #### Bloodhound
 
 - Expanding Bloodhound with Plaintext Field to Compromised Accounts (CrackHound): https://www.trustedsec.com/blog/expanding-the-hound-introducing-plaintext-field-to-compromised-accounts/
@@ -140,6 +145,7 @@ https://github.com/lkarlslund/adalanche
 - Detecting LDAP enumeration and Sharphound collector using AD Decoys: https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644
 - Fixing Common AD Security Issues with Bloodhound: https://dzone.com/articles/how-to-fix-the-three-most-common-ad-security-issue
 - AD Explorer, bloodhound, and AD Attack Paths: https://infosecjournal.com/issues/infosec-journal-issue-1-943327
+- Attack Mapping with Bloodhound: https://stealthbits.com/blog/local-admin-mapping-bloodhound/
 
 #### Purple Knight
 
@@ -151,6 +157,9 @@ https://www.purple-knight.com/
 
 #### jackdaw
 https://github.com/skelsec/jackdaw
+
+#### PowerShell
+- Performing AD Reconnaissance with PowerShell: https://stealthbits.com/blog/performing-domain-reconnaissance-using-powershell/
 
 ### Github AD Resources, Tweets, & Other References
 
@@ -165,12 +174,12 @@ https://github.com/skelsec/jackdaw
 - 7 Common AD Misconfigurations that Adversaries Abuse: https://www.crowdstrike.com/blog/seven-common-microsoft-ad-misconfigurations-that-adversaries-abuse/
 - Offensive WMI: https://0xinfection.github.io/posts/wmi-ad-enum/
 - 5 Simple AD Improvements by wald0: https://twitter.com/_wald0/status/1477067833712381953?t=jz-hwkQWKVmTuLdtTC9RDA&s=19
+- AD Hardening by NathanMcNulty: https://twitter.com/NathanMcNulty/status/1282370323233402880?t=PtLDNrH8nbSjkliTJA67bA&s=19
 
 ### AD Hardening Guides:
 -  White Oak Security AD Hardening Guide: https://www.whiteoaksecurity.com/blog/active-directory-security/
 -  Trimarc Security - Protecting Against Privileged Crednetial Sprawl: https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl
 -  Hardening Outbound NTLM on AD DCs: https://www-cert-ssi-gouv-fr.translate.goog/dur/CERTFR-2021-DUR-001/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US
--  
 
 ### Videos, Conferences, and Talks
 - Hacking Common AD Misconfigurations: https://www.youtube.com/watch?v=U5q2_i8bNb4
@@ -178,4 +187,3 @@ https://github.com/skelsec/jackdaw
 
 ### Active Deception, Canaries, etc
 - Digital Canaries in Coal Mines: Detecting Adversarial Enumeration: https://medium.com/@rvrsh3ll/digital-canaries-in-coal-mines-detecting-adversarial-enumeration-with-dns-and-ad-aff70c60fc8
-- 
