@@ -53,7 +53,19 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 ## Zerologon
 
 - Zerologon is now detected by Microsoft Defender for Identity: https://www.microsoft.com/security/blog/2020/11/30/zerologon-is-now-detected-by-microsoft-defender-for-identity/
+
+## PetitPotam
+
+- From Stranger to DA: https://blog.truesec.com/2021/08/05/from-stranger-to-da-using-petitpotam-to-ntlm-relay-to-active-directory/
 - 
+### RPC Filters
+- https://www.bleepingcomputer.com/news/microsoft/windows-petitpotam-attacks-can-be-blocked-using-new-method/
+- MS-EFSR Standards Assignments: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-efsr/1baaad2f-7a84-4238-b113-f32827a39cd2
+- How to secure a Windows RPC Server and how not to: https://www.tiraniddo.dev/2021/08/how-to-secure-windows-rpc-server-and.html?m=1
+- 
+## HiveNightmare/SeriousSAM
+- BHIS Admin's Nightmare: https://www.blackhillsinfosec.com/admins-nightmare-combining-hivenightmare-serioussam-and-ad-cs-attack-paths-for-profit/
+
 ## Constrained Delegation Abuse
 
 - Wagging the Dog: Abusing Resource-Based Constrianed Delegation to Attack AD: https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html
@@ -91,6 +103,7 @@ https://www.pingcastle.com/
 
 - Expanding Bloodhound with Plaintext Field to Compromised Accounts (CrackHound): https://www.trustedsec.com/blog/expanding-the-hound-introducing-plaintext-field-to-compromised-accounts/
 - Bloodhound Cypher Cheatsheet: https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/
+- Detecting LDAP enumeration and Sharphound collector using AD Decoys: https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644
 
 #### Purple Knight
 
