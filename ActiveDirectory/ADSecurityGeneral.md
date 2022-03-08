@@ -22,6 +22,11 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Rapid AD Hardening Checklist: https://www.pwndefend.com/2022/02/26/rapid-active-directory-hardening-checklist/
 - Post Compromise AD Checklist: https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/
 
+## SpecterOps
+- Manual AD Querying with dsquery and LDAPsearch: https://posts.specterops.io/an-introduction-to-manual-active-directory-querying-with-dsquery-and-ldapsearch-84943c13d7eb
+- The Attack Path Management Manifesto: https://posts.specterops.io/the-attack-path-management-manifesto-3a3b117f5e5
+- 
+
 # Specific AD Attacks & Techniques
 
 ## Golden Tickets
@@ -57,12 +62,18 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 ## PetitPotam
 
 - From Stranger to DA: https://blog.truesec.com/2021/08/05/from-stranger-to-da-using-petitpotam-to-ntlm-relay-to-active-directory/
-- 
 ### RPC Filters
 - https://www.bleepingcomputer.com/news/microsoft/windows-petitpotam-attacks-can-be-blocked-using-new-method/
 - MS-EFSR Standards Assignments: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-efsr/1baaad2f-7a84-4238-b113-f32827a39cd2
 - How to secure a Windows RPC Server and how not to: https://www.tiraniddo.dev/2021/08/how-to-secure-windows-rpc-server-and.html?m=1
-- 
+
+## Kerberos Bronze Bit Attack
+- NetSPI: Kerberos Bronze Bit Overview: https://blog.netspi.com/cve-2020-17049-kerberos-bronze-bit-overview/
+- NetSPI: Bronze Bit Attack: https://blog.netspi.com/cve-2020-17049-kerberos-bronze-bit-attack/
+- NetSPI: Kerberos Theory: https://blog.netspi.com/cve-2020-17049-kerberos-bronze-bit-theory
+- Trimarc Kerberos Bronze Bit Attack: https://www.hub.trimarcsecurity.com/post/leveraging-the-kerberos-bronze-bit-attack-cve-2020-17049-scenarios-to-compromise-active-directory
+
+
 ## HiveNightmare/SeriousSAM
 - BHIS Admin's Nightmare: https://www.blackhillsinfosec.com/admins-nightmare-combining-hivenightmare-serioussam-and-ad-cs-attack-paths-for-profit/
 
@@ -109,11 +120,15 @@ https://www.pingcastle.com/
 
 https://www.purple-knight.com/
 
-### Github AD Resources
+### Github AD Resources & Other References
 
 - AD-Attack-Defense by infosecn1nja: https://github.com/infosecn1nja/AD-Attack-Defense
 - ADInspect by Soteria: https://github.com/soteria-security/ADInspect
 - AD Sentinel KQL Rules by Kaidja: https://github.com/Kaidja/Azure-Sentinel/tree/main/Analytics%20Rules/Active%20Directory
+- AD Exploitation Cheat Sheet: https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/
+- Practical Compromise Recovery Guidance for AD: https://m365internals.com/2021/04/27/practical-compromise-recovery-guidance-for-active-directory/
+- Securing AD Service Accounts: https://forestall.io/blog/tr/activedirectory/active-directory-servis-hesaplarinin-guvenligi/
+- 18 Ways to Detect Malicious Actions in Your AD Logs using SIEM: https://blueteamblog.com/18-ways-to-detect-malcious-actions-in-your-active-directory-logs-using-siem
 
 ### AD Hardening Guides:
 -  White Oak Security AD Hardening Guide: https://www.whiteoaksecurity.com/blog/active-directory-security/
