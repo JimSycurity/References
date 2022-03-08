@@ -63,6 +63,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 
 - From Stranger to DA: https://blog.truesec.com/2021/08/05/from-stranger-to-da-using-petitpotam-to-ntlm-relay-to-active-directory/
 ### RPC Filters
+- A Definitive Guide to the RPC Filter: https://www.akamai.com/blog/security/guide-rpc-filter
 - https://www.bleepingcomputer.com/news/microsoft/windows-petitpotam-attacks-can-be-blocked-using-new-method/
 - MS-EFSR Standards Assignments: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-efsr/1baaad2f-7a84-4238-b113-f32827a39cd2
 - How to secure a Windows RPC Server and how not to: https://www.tiraniddo.dev/2021/08/how-to-secure-windows-rpc-server-and.html?m=1
@@ -83,6 +84,17 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Revisiting Delegate 2 Thyself: https://exploit.ph/revisiting-delegate-2-thyself.html
 - Abusing KDC without Protocol Transition: https://snovvcrash.rocks/2022/03/06/abusing-kcd-without-protocol-transition.html
 
+## Kerberos Relaying
+
+- Relaying Kerberos over DNS using krbrelayx and mitm6: https://dirkjanm.io/relaying-kerberos-over-dns-with-krbrelayx-and-mitm6/
+
+
+## Credential Protection
+### LSASS RunAsPPL
+- Do you really know about LSA Protection?: https://itm4n.github.io/lsass-runasppl
+- Bypassing LSA Protection in Userland: https://blog.scrt.ch/2021/04/22/bypassing-lsa-protection-in-userland/
+- 
+
 ## Misconfigurations & Attack Paths
 Many of the most pervasive issues around the security of Active Directory are misconfigurations in the environment.  These misconfigurations come about in many ways, but some examples are technical debt from long running AD domains (or worse, an AD domain that was originally created as part of a Microsoft Small Business Server 2000/2003), lack of knowledge, poor official documentation, and many SysAdmins and 3rd party vendors just trying to make a thing work.
 
@@ -94,6 +106,10 @@ Even though Active Directory has been around for about 20 years, there's still o
 ### DACL Misconfigurations
 - DACL Trouble: GenericAll on OUs: https://www.adamcouch.co.uk/dacl-trouble-genericall-on-ous/
 
+### DCOM
+- Non-administrative DCOM Execution: https://simondotsh.com/infosec/2021/12/29/dcom-without-admin.html
+- Lateral Movement via DCOM: Round 2: https://enigma0x3.net/2017/01/23/lateral-movement-via-dcom-round-2/
+
 ### Tools for discoverying AD Misconfigurations & Attack Paths
 
 #### Microsoft Defender for Identity
@@ -104,6 +120,7 @@ Pingcastle is a simple way to quickly gather and view information on many common
 https://www.pingcastle.com/
 
 #### Adalanche
+https://github.com/lkarlslund/adalanche
 
 #### Trimarc ADChecks
 
@@ -115,10 +132,16 @@ https://www.pingcastle.com/
 - Expanding Bloodhound with Plaintext Field to Compromised Accounts (CrackHound): https://www.trustedsec.com/blog/expanding-the-hound-introducing-plaintext-field-to-compromised-accounts/
 - Bloodhound Cypher Cheatsheet: https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/
 - Detecting LDAP enumeration and Sharphound collector using AD Decoys: https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644
+- Fixing Common AD Security Issues with Bloodhound: https://dzone.com/articles/how-to-fix-the-three-most-common-ad-security-issue
+- AD Explorer, bloodhound, and AD Attack Paths: https://infosecjournal.com/issues/infosec-journal-issue-1-943327
 
 #### Purple Knight
 
 https://www.purple-knight.com/
+
+#### AD Explorer
+- TrustedSec AD Explorer on Engagements: https://www.trustedsec.com/blog/adexplorer-on-engagements/
+- BHIS - Domain Goodness - How I learned to love AD Explorer: https://www.blackhillsinfosec.com/domain-goodness-learned-love-ad-explorer/
 
 ### Github AD Resources & Other References
 
@@ -129,7 +152,14 @@ https://www.purple-knight.com/
 - Practical Compromise Recovery Guidance for AD: https://m365internals.com/2021/04/27/practical-compromise-recovery-guidance-for-active-directory/
 - Securing AD Service Accounts: https://forestall.io/blog/tr/activedirectory/active-directory-servis-hesaplarinin-guvenligi/
 - 18 Ways to Detect Malicious Actions in Your AD Logs using SIEM: https://blueteamblog.com/18-ways-to-detect-malcious-actions-in-your-active-directory-logs-using-siem
+- Attacking AD: https://zer1t0.gitlab.io/posts/attacking_ad/
 
 ### AD Hardening Guides:
 -  White Oak Security AD Hardening Guide: https://www.whiteoaksecurity.com/blog/active-directory-security/
 -  Trimarc Security - Protecting Against Privileged Crednetial Sprawl: https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl
+-  Hardening Outbound NTLM on AD DCs: https://www-cert-ssi-gouv-fr.translate.goog/dur/CERTFR-2021-DUR-001/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US
+-  
+
+### Videos, Conferences, and Talks
+- Hacking Common AD Misconfigurations: https://www.youtube.com/watch?v=U5q2_i8bNb4
+- 
