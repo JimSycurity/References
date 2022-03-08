@@ -25,9 +25,15 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 ## SpecterOps
 - Manual AD Querying with dsquery and LDAPsearch: https://posts.specterops.io/an-introduction-to-manual-active-directory-querying-with-dsquery-and-ldapsearch-84943c13d7eb
 - The Attack Path Management Manifesto: https://posts.specterops.io/the-attack-path-management-manifesto-3a3b117f5e5
+- Death from Above: Lateral Movement from Azure to On-Prem AD: https://posts.specterops.io/death-from-above-lateral-movement-from-azure-to-on-prem-ad-d18cb3959d4d
 - 
 
 # Specific AD Attacks & Techniques
+
+## NTLM Relaying
+- NTLM Hacker Recipes: https://www.thehacker.recipes/ad/movement/ntlm
+- Mitigating NTLM Relay Attacks on ADCS: https://support.microsoft.com/en-us/topic/kb5005413-mitigating-ntlm-relay-attacks-on-active-directory-certificate-services-ad-cs-3612b773-4043-4aa9-b23d-b87910cd3429
+- Exploiting CVE-2019-1040 - Combining relay vulnerabilities for RCE and Domain Admin: https://dirkjanm.io/exploiting-CVE-2019-1040-relay-vulnerabilities-for-rce-and-domain-admin/
 
 ## Golden Tickets
 
@@ -143,7 +149,10 @@ https://www.purple-knight.com/
 - TrustedSec AD Explorer on Engagements: https://www.trustedsec.com/blog/adexplorer-on-engagements/
 - BHIS - Domain Goodness - How I learned to love AD Explorer: https://www.blackhillsinfosec.com/domain-goodness-learned-love-ad-explorer/
 
-### Github AD Resources & Other References
+#### jackdaw
+https://github.com/skelsec/jackdaw
+
+### Github AD Resources, Tweets, & Other References
 
 - AD-Attack-Defense by infosecn1nja: https://github.com/infosecn1nja/AD-Attack-Defense
 - ADInspect by Soteria: https://github.com/soteria-security/ADInspect
@@ -153,6 +162,9 @@ https://www.purple-knight.com/
 - Securing AD Service Accounts: https://forestall.io/blog/tr/activedirectory/active-directory-servis-hesaplarinin-guvenligi/
 - 18 Ways to Detect Malicious Actions in Your AD Logs using SIEM: https://blueteamblog.com/18-ways-to-detect-malcious-actions-in-your-active-directory-logs-using-siem
 - Attacking AD: https://zer1t0.gitlab.io/posts/attacking_ad/
+- 7 Common AD Misconfigurations that Adversaries Abuse: https://www.crowdstrike.com/blog/seven-common-microsoft-ad-misconfigurations-that-adversaries-abuse/
+- Offensive WMI: https://0xinfection.github.io/posts/wmi-ad-enum/
+- 5 Simple AD Improvements by wald0: https://twitter.com/_wald0/status/1477067833712381953?t=jz-hwkQWKVmTuLdtTC9RDA&s=19
 
 ### AD Hardening Guides:
 -  White Oak Security AD Hardening Guide: https://www.whiteoaksecurity.com/blog/active-directory-security/
@@ -162,4 +174,8 @@ https://www.purple-knight.com/
 
 ### Videos, Conferences, and Talks
 - Hacking Common AD Misconfigurations: https://www.youtube.com/watch?v=U5q2_i8bNb4
+- 
+
+### Active Deception, Canaries, etc
+- Digital Canaries in Coal Mines: Detecting Adversarial Enumeration: https://medium.com/@rvrsh3ll/digital-canaries-in-coal-mines-detecting-adversarial-enumeration-with-dns-and-ad-aff70c60fc8
 - 
