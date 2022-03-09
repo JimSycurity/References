@@ -20,6 +20,9 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Beyond Domain Admins - Domain Controller & AD Administration: https://adsecurity.org/?p=3700
 - Detecting Forged Kerberos Ticket (Golden & Silver) use in AD: https://adsecurity.org/?p=1515
 
+## Trimarc Security
+- Honeypot Accounts: https://www.hub.trimarcsecurity.com/post/the-art-of-the-honeypot-account-making-the-unusual-look-normal
+
 ## Pwndefend
 - Rapid AD Hardening Checklist: https://www.pwndefend.com/2022/02/26/rapid-active-directory-hardening-checklist/
 - Post Compromise AD Checklist: https://www.pwndefend.com/2021/09/15/post-compromise-active-directory-checklist/
@@ -180,12 +183,13 @@ https://github.com/skelsec/jackdaw
 - 7 Common AD Misconfigurations that Adversaries Abuse: https://www.crowdstrike.com/blog/seven-common-microsoft-ad-misconfigurations-that-adversaries-abuse/
 - Offensive WMI: https://0xinfection.github.io/posts/wmi-ad-enum/
 - 5 Simple AD Improvements by wald0: https://twitter.com/_wald0/status/1477067833712381953?t=jz-hwkQWKVmTuLdtTC9RDA&s=19
-- AD Hardening by NathanMcNulty: https://twitter.com/NathanMcNulty/status/1282370323233402880?t=PtLDNrH8nbSjkliTJA67bA&s=19
+- Kerberoast-Detection by Blumira: https://github.com/Blumira/Kerberoast-Detection
 
 ### AD Hardening Guides:
 -  White Oak Security AD Hardening Guide: https://www.whiteoaksecurity.com/blog/active-directory-security/
 -  Trimarc Security - Protecting Against Privileged Crednetial Sprawl: https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl
 -  Hardening Outbound NTLM on AD DCs: https://www-cert-ssi-gouv-fr.translate.goog/dur/CERTFR-2021-DUR-001/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US
+- AD Hardening by NathanMcNulty: https://twitter.com/NathanMcNulty/status/1282370323233402880?t=PtLDNrH8nbSjkliTJA67bA&s=19
 
 ### Videos, Conferences, and Talks
 - Hacking Common AD Misconfigurations: https://www.youtube.com/watch?v=U5q2_i8bNb4
