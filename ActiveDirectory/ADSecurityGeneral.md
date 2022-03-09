@@ -202,3 +202,4 @@ https://github.com/skelsec/jackdaw
 - Microsoft Defender for Identity honeytoken accounts: https://docs.microsoft.com/en-us/defender-for-identity/manage-sensitive-honeytoken-accounts
 - Detecting LDAP enumeration and Bloodhound‘s Sharphound collector using AD Decoys: https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644
 - Honeypot Accounts: https://www.hub.trimarcsecurity.com/post/the-art-of-the-honeypot-account-making-the-unusual-look-normal
+- Sean Metcalf: Quickest way to identify recon tools (like Bloodhound) is to set up SACLs (audit entries) on AD objects that are typically hit - Domain Admins, Domain Controller computer objects, etc.
