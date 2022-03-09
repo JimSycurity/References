@@ -19,8 +19,10 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Attack Methods for Gaining Domain Admin Rights in AD: https://adsecurity.org/?p=2362
 - Beyond Domain Admins - Domain Controller & AD Administration: https://adsecurity.org/?p=3700
 - Detecting Forged Kerberos Ticket (Golden & Silver) use in AD: https://adsecurity.org/?p=1515
+- Service Accounts: https://adsecurity.org/?p=4115
 
 ## Trimarc Security
+- Implementing Controls in Active Directory: Protecting Against Privileged Credential Sprawl : https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl
 - Honeypot Accounts: https://www.hub.trimarcsecurity.com/post/the-art-of-the-honeypot-account-making-the-unusual-look-normal
 
 ## Pwndefend
@@ -56,6 +58,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Kerberoasting Attack Tutorial by Stealthbit: https://attack.stealthbits.com/cracking-kerberos-tgs-tickets-using-kerberoasting
 - Tim Medin - Tickets encrypted with AES keys are succeptible to Kerberoasting, twitter thread: https://twitter.com/TimMedin/status/1501232474763894784?s=20&t=c9uASmYc0eDJNrHYTz_iOg
 - Detecting Kerberoasting by Trimarc: https://www.hub.trimarcsecurity.com/post/trimarc-research-detecting-kerberoasting-activity
+- Kerberoast by skelsec
 
 ## DCSync
 
@@ -196,6 +199,7 @@ https://github.com/skelsec/jackdaw
 - Hacking Common AD Misconfigurations: https://www.youtube.com/watch?v=U5q2_i8bNb4
 - Trimarc Presentations: https://www.hub.trimarcsecurity.com/presentations
 - Sean Metcalf @ Derbycon - Red vs Blue Active Directory Attack & Defense: https://adsecurity.org/?p=1738
+- SiegeCast: In Defense of Defense in Depth: https://www.youtube.com/watch?v=H6L-nVs1YWg
 
 ### Active Deception, Canaries, etc
 - Digital Canaries in Coal Mines: Detecting Adversarial Enumeration: https://medium.com/@rvrsh3ll/digital-canaries-in-coal-mines-detecting-adversarial-enumeration-with-dns-and-ad-aff70c60fc8
