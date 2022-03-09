@@ -45,6 +45,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Golden Ticket Attack Tutorial by Stealthbit: https://attack.stealthbits.com/how-golden-ticket-attack-works
 - Golden Ticket by Pentestlab: https://pentestlab.blog/2018/04/09/golden-ticket/
 - Detecting Forged Kerberos Ticket (Golden & Silver) use in AD: https://adsecurity.org/?p=1515
+- TODO: Change the password for the krbtgt account on a regular schedule: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn745899(v=ws.11)?redirectedfrom=MSDN#krbtgt-account-maintenance-considerations
 
 ## Kerberoasting
 
@@ -56,6 +57,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 
 - What is DCSync by Stealthbit: https://stealthbits.com/blog/what-is-dcsync-an-introduction/
 - Mimikatz DCsync Usage, Exploitation, and Detection: https://adsecurity.org/?p=1729
+- MS-DRSR: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-drsr/f977faaa-673e-4f66-b9bf-48c640241d47
 
 ## AD DS Database Theft (NTDS.dit)
 
@@ -66,6 +68,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 
 - DCShadow explained: by Luc Delsalle of Aslid.eu: https://blog.alsid.eu/dcshadow-explained-4510f52fc19d
 - DCShadow Attack: https://www.dcshadow.com/
+- UncoverDCShadow: A PowerShell utility to dynamically uncover a DCShadow attack: https://github.com/AlsidOfficial/UncoverDCShadow/
 
 ## Zerologon
 
@@ -125,6 +128,9 @@ Even though Active Directory has been around for about 20 years, there's still o
 ### Tools for discoverying AD Misconfigurations & Attack Paths
 
 #### Microsoft Defender for Identity
+
+- MDI Documentation: https://docs.microsoft.com/en-us/defender-for-identity/
+- IdentityLogonEvents AdvancedHunting table: https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-identitylogonevents-table?view=o365-worldwide
 
 #### Pingcastle
 
@@ -187,3 +193,4 @@ https://github.com/skelsec/jackdaw
 
 ### Active Deception, Canaries, etc
 - Digital Canaries in Coal Mines: Detecting Adversarial Enumeration: https://medium.com/@rvrsh3ll/digital-canaries-in-coal-mines-detecting-adversarial-enumeration-with-dns-and-ad-aff70c60fc8
+- Microsoft Defender for Identity honeytoken accounts: https://docs.microsoft.com/en-us/defender-for-identity/manage-sensitive-honeytoken-accounts
