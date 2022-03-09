@@ -55,6 +55,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Kerberoasting without Mimikatz by harmj0y: https://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/
 - Kerberoasting Attack Tutorial by Stealthbit: https://attack.stealthbits.com/cracking-kerberos-tgs-tickets-using-kerberoasting
 - Tim Medin - Tickets encrypted with AES keys are succeptible to Kerberoasting, twitter thread: https://twitter.com/TimMedin/status/1501232474763894784?s=20&t=c9uASmYc0eDJNrHYTz_iOg
+- Detecting Kerberoasting by Trimarc: https://www.hub.trimarcsecurity.com/post/trimarc-research-detecting-kerberoasting-activity
 
 ## DCSync
 
@@ -193,8 +194,10 @@ https://github.com/skelsec/jackdaw
 
 ### Videos, Conferences, and Talks
 - Hacking Common AD Misconfigurations: https://www.youtube.com/watch?v=U5q2_i8bNb4
-- 
+- Trimarc Presentations: https://www.hub.trimarcsecurity.com/presentations
+- Sean Metcalf @ Derbycon - Red vs Blue Active Directory Attack & Defense: https://adsecurity.org/?p=1738
 
 ### Active Deception, Canaries, etc
 - Digital Canaries in Coal Mines: Detecting Adversarial Enumeration: https://medium.com/@rvrsh3ll/digital-canaries-in-coal-mines-detecting-adversarial-enumeration-with-dns-and-ad-aff70c60fc8
 - Microsoft Defender for Identity honeytoken accounts: https://docs.microsoft.com/en-us/defender-for-identity/manage-sensitive-honeytoken-accounts
+- Detecting LDAP enumeration and Bloodhound‘s Sharphound collector using AD Decoys: https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644
