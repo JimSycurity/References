@@ -201,3 +201,4 @@ https://github.com/skelsec/jackdaw
 - Digital Canaries in Coal Mines: Detecting Adversarial Enumeration: https://medium.com/@rvrsh3ll/digital-canaries-in-coal-mines-detecting-adversarial-enumeration-with-dns-and-ad-aff70c60fc8
 - Microsoft Defender for Identity honeytoken accounts: https://docs.microsoft.com/en-us/defender-for-identity/manage-sensitive-honeytoken-accounts
 - Detecting LDAP enumeration and Bloodhound‘s Sharphound collector using AD Decoys: https://medium.com/securonix-tech-blog/detecting-ldap-enumeration-and-bloodhound-s-sharphound-collector-using-active-directory-decoys-dfc840f2f644
+- Honeypot Accounts: https://www.hub.trimarcsecurity.com/post/the-art-of-the-honeypot-account-making-the-unusual-look-normal
