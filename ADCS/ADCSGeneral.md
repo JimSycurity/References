@@ -18,4 +18,7 @@
 
 ## ADCS Operations
 - Revoking Orphaned Certificates: https://sysadmins.lv/retired-msft-blogs/xdot509/operating-a-pki-revoking-orphaned-certificates.aspx
-- 
+-
+
+## Fixing ADCS Security Issues
+- LockSmith: A tiny tool to identify and remediate common misconfigurations in Active Directory Certificate Services: https://github.com/TrimarcJake/Locksmith
