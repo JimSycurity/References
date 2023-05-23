@@ -22,6 +22,7 @@ This is primarily an exercise for me to organize links and info, but doing it pu
 - Service Accounts: https://adsecurity.org/?p=4115
 
 ## Trimarc Security
+- Ten Ways to Improve AD Security Quickly (Plus my Whitepaper): https://www.hub.trimarcsecurity.com/post/ten-ways-to-improve-ad-security-quickly
 - Implementing Controls in Active Directory: Protecting Against Privileged Credential Sprawl : https://www.hub.trimarcsecurity.com/post/implementing-controls-in-active-directory-protecting-against-privileged-credential-sprawl
 - Honeypot Accounts: https://www.hub.trimarcsecurity.com/post/the-art-of-the-honeypot-account-making-the-unusual-look-normal
 
