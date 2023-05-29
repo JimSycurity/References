@@ -7,3 +7,7 @@ Here are some good starting points:
 
 Global Object Access:
 - https://learn.microsoft.com/en-us/archive/blogs/askds/global-object-access-auditing-is-magic
+
+
+Auditing:
+- https://learn.microsoft.com/en-us/archive/blogs/askds/cool-auditing-tricks-in-vista-and-2008
